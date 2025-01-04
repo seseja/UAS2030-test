@@ -6,27 +6,31 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const defaultLocale = 'en';
+
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'KFUPM AE Experimental Website',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'KFUPM Drone Lab',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/UAS203-test/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ibrahimaljalal', // Usually your GitHub org/user name.
+  projectName: 'UAS203-test', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  deploymentBranch: "gh-pages",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -45,8 +49,15 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: ({locale, docPath}) => {
+            if (locale !== defaultLocale) {
+              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
+            }
+            // We want users to submit updates to the upstream/next version!
+            // Otherwise we risk losing the update on the next release.
+            const nextVersionDocsDirPath = 'docs';
+            return `https://github.com/ibrahimaljalal/UAS2030-test/edit/main/${nextVersionDocsDirPath}/${docPath}`;
+          },
         },
         blog: {
           showReadingTime: true,
@@ -56,8 +67,12 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: ({locale, blogDirPath, blogPath}) => {
+            if (locale !== defaultLocale) {
+              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
+            }
+            return `https://github.com/ibrahimaljalal/UAS2030-test/edit/main/${blogDirPath}/${blogPath}`;
+          },
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
