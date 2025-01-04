@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://github.com/UAS2030-test/blog</id>
+    <title>KFUPM AE Experimental Website Blog</title>
+    <updated>2025-01-05T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://github.com/UAS2030-test/blog"/>
+    <subtitle>KFUPM AE Experimental Website Blog</subtitle>
+    <icon>https://github.com/UAS2030-test/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[001 - Drone Regulations & Recommended Standards]]></title>
+        <id>https://github.com/UAS2030-test/blog/2025/01/5/</id>
+        <link href="https://github.com/UAS2030-test/blog/2025/01/5/"/>
+        <updated>2025-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dear Faculty & IRC members,]]></summary>
+        <content type="html"><![CDATA[<p>Dear Faculty &amp; IRC members,</p>
+<p>Below are the main drone regulations and recommended standards if you are plaining to work with a drone. These guidelines should prevent potential issues in the future.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="regulations">Regulations:<a href="https://github.com/UAS2030-test/blog/2025/01/5/#regulations" class="hash-link" aria-label="Direct link to Regulations:" title="Direct link to Regulations:">​</a></h2>
+<p>•	The overall wight of the drone should not exceed 4 kg (This includes everything such as the batteries &amp; payload). If your project requires more than that then you should provide a justification and permission from the department.<br>
+<!-- -->o	Please note that this is a university not a company. We should focus on the concept/prototype and not the final complete product.<br>
+<!-- -->o	Large drones are dangerous to use.<br>
+<!-- -->o	It is unfortunate that in the last years some students have worked on large drones without even flying them once. This is an unacceptable waste of the university’s financial resources.</p>
+<p>•	The propeller should always be detached from the drone. The propellers should not be installed except if you are about to fly the drone.</p>
+<p>•	The lipo batteries should also not be used except for testing or before flying the drone.</p>
+<p>•	Whomever is working with the lipo batteries should be aware of its hazards.</p>
+<p>•	Students are prohibited to fly the drone in KFUPM campus. This should only be done by the department.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="recommended-standards">Recommended Standards:<a href="https://github.com/UAS2030-test/blog/2025/01/5/#recommended-standards" class="hash-link" aria-label="Direct link to Recommended Standards:" title="Direct link to Recommended Standards:">​</a></h2>
+<p>•	Drone frames:<br>
+<!-- -->o	X500<br>
+<!-- -->o	F330<br>
+<!-- -->o	F450<br>
+<!-- -->o	F550<br>
+<!-- -->o	If you do not have one of these drones, then we generally recommend using a small frame. The size of the drone from should not exceed 500 mm</p>
+<p>•	Flight Controllers :<br>
+<!-- -->o	Pixhawk 6C<br>
+<!-- -->o	Pixhawk 6X<br>
+<!-- -->o	Pixhawk 2.4.8 (this is generally not recommended but we have included it because it is cheaper and very common. If you are going to use it make sure to git the kit and keep in mind that the wires are not compatible with the rest of the flight controllers.<br>
+<!-- -->o	Pixhawk orange cube<br>
+<!-- -->o	CUAV V5 nano<br>
+<!-- -->o	CUAV V5+</p>
+<p>•	Wires/cable/connection:<br>
+<!-- -->o	JST GH 1.25. this type of connection is compatible with all the flight controllers except for Pixhawk 2.4.8.<br>
+<!-- -->o	XT60 is the recommended lipo batter connection.<br>
+<!-- -->o	Bullet size for ESCs are usually 3.5 mm (inner diameter).<br>
+<!-- -->o	The wire AWG should be about 12 and 14 (used with batteries, ESCs, and motors). The rest of the parts generally requires less AWG.</p>
+<p>•	Propellers:<br>
+<!-- -->o	The recommended size is about 10 inch in diameter and 4.5-inch pitch for most applications.<br>
+<!-- -->o	It is recommended to use plastic propellers instead of carbon fiber (for students’ safety).<br>
+<!-- -->•	Screws: It has been noticed that the M3<em>8 &amp; M2.5</em>6 screws are the most common type of screws needed to work on a drone project especially if you will work on the F450 frame (M3<em>8 is used to mount the motor &amp; M2.5</em>6 for the frame itself).<br>
+<!-- -->•	The FS-i6X remote and the FS-iA6B or FS-iA10B receivers</p>
+<p><a href="https://truth-stilton-0b255.notion.site/17195975361c80e5bda4e2a6e2541e67?pvs=105" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://media.licdn.com/dms/image/v2/D4D0BAQEpSZi5gWIkeg/company-logo_200_200/company-logo_200_200/0/1731854499488?e=2147483647&amp;v=beta&amp;t=a0yIjwhR6JsJtmKFwxZHGzaqstVgv2G6dk6V7Vqj66s" alt="Awareness System" class="img_ev3q"></a></p>]]></content>
+        <author>
+            <name>Ibrahim Aljalal</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <category label="Drone Lab" term="Drone Lab"/>
+        <category label="Docusaurus" term="Docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://github.com/UAS2030-test/blog/welcome</id>
+        <link href="https://github.com/UAS2030-test/blog/welcome"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[hello world.]]></summary>
+        <content type="html"><![CDATA[<p>hello world.</p>]]></content>
+        <author>
+            <name>Dr. Ayman Abdallah</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+        <author>
+            <name>Ibrahim Aljalal</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <category label="Facebook" term="Facebook"/>
+        <category label="Hello" term="Hello"/>
+        <category label="Docusaurus" term="Docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MDX Blog Post]]></title>
+        <id>https://github.com/UAS2030-test/blog/mdx-blog-post</id>
+        <link href="https://github.com/UAS2030-test/blog/mdx-blog-post"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
+        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
+<!-- -->
+<p>For example, use JSX to create an interactive button:</p>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<button>Click me!</button>]]></content>
+        <author>
+            <name>Ibrahim Aljalal</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <category label="Docusaurus" term="Docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Long Blog Post]]></title>
+        <id>https://github.com/UAS2030-test/blog/long-blog-post</id>
+        <link href="https://github.com/UAS2030-test/blog/long-blog-post"/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
+        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
+<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>Dr. Ayman Abdallah</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+        <category label="Hello" term="Hello"/>
+        <category label="Docusaurus" term="Docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>https://github.com/UAS2030-test/blog/first-blog-post</id>
+        <link href="https://github.com/UAS2030-test/blog/first-blog-post"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the first document.]]></summary>
+        <content type="html"><![CDATA[<p>This is the first document.</p>
+<p>The rest of the text will be nonsense.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis facilisis nulla. Donec aliquet id nunc feugiat tincidunt. Duis mi enim, molestie pulvinar elit id, euismod viverra orci. Proin dignissim, urna non rhoncus gravida, sem lorem sodales nunc, eu condimentum odio diam vitae massa. Morbi dignissim vulputate molestie. Proin a pharetra elit, ac venenatis urna. Ut convallis mi eu aliquam condimentum. Nunc congue scelerisque massa, id mattis ex sollicitudin quis. Donec egestas quis ex vel pulvinar.</p>
+<p>Pellentesque sit amet est sit amet orci euismod pharetra. Aenean et auctor metus. Suspendisse mattis nibh vel mauris euismod, eget viverra orci convallis. Duis eu nulla nunc. Sed eget luctus lorem, eget rutrum nisl. Suspendisse potenti. In non maximus metus, ut euismod quam. Sed lectus ante, ultrices quis sapien quis, imperdiet finibus dui. Sed semper, nisi id viverra vehicula, metus sem consequat lacus, aliquet rutrum nulla erat nec eros. Mauris viverra est mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean faucibus, sapien ac ornare luctus, lorem elit malesuada quam, eu porttitor nulla justo at sapien.</p>
+<p>Donec scelerisque suscipit leo egestas pharetra. Curabitur tincidunt dolor a nulla placerat porttitor. Praesent quis odio diam. Cras hendrerit rutrum mauris, quis scelerisque risus. Mauris in libero ut dui efficitur facilisis a et velit. Sed ac elit sit amet purus scelerisque posuere. Cras ultrices dignissim quam eget ultricies. Proin quis luctus tortor, sit amet aliquet erat. In felis quam, suscipit non neque et, vehicula maximus dui. Maecenas libero ex, euismod non eleifend sed, blandit nec tellus. Vestibulum purus turpis, pellentesque vitae viverra in, pharetra et nibh.</p>
+<p>Mauris malesuada, tortor a eu</p>]]></content>
+        <author>
+            <name>Ibrahim Aljalal</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <author>
+            <name>Dr. Ayman Abdallah</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+        <category label="Hola" term="Hola"/>
+        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="Drone Lab" term="Drone Lab"/>
+    </entry>
+</feed>
