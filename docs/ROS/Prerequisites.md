@@ -4,7 +4,7 @@ title: 1-Prerequisites
 
 The Prerequisites for learning ROS in my opinion (sorted from highest priority):
 
-## 1.1-Python Programing Language:
+## 1.1-Python Programing Language 1:
 
 C++ is generally considered more important, and it might have more resources than python but in your
 master program you will not need to use C++ in COE 510 (ROS course) since it will be optional. You will
